@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'oleo script', sans-serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh ;
+    background: #081b29;
+   
+}
+
+.font{
+    position: relative;
+    width: 750px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid #F86F03;
+    box-shadow: 0 0 50px #F86F03;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.font .form-box{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.font .form-box.login{
+    left: 0;
+    padding: 0 60px 0 40px;
+    display: none;
+}
+
+.font .form-box.register{
+    right: 0;
+    padding: 0 40px 0 60px;
+ 
+}
+
+.form-box h2{
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+}
+
+.form-box .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 25px 0px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #F86F03;
+    padding-right: 23px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    transition: .5s;
+}
+
+.input-box input:focus,
+.input-box input:valid{
+    border-bottom-color: #F86F03;
+}
+
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+    color: #081b29;
+}
+
+.input-box i {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.input-box input:focus~i,
+.input-box input:valid~i{
+    color: #F86F03;
+}
+
+.bnt{
+    position: relative;
+    width: 100%;
+    height: 15%;
+    background: transparent;
+    border: 2px solid #F86F03;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.bnt::before{
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 300%;
+    background: linear-gradient(#081b29, #F86F03, #081b29, #F86F03 );
+    z-index: -1;
+    transition: .5s;
+}
+
+.bnt:hover::before{
+    top: 0;
+}
+.form-box .pas_compte{
+    font-size: 14.5px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px 0 10px;
+}
+
+.pas_compte p a{
+    color: #F86F03;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.pas_compte p a:hover{
+    text-decoration: underline;
+}
+
+.font .info-text{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.font .info-text.login{
+    right: 0;
+    text-align: right;
+    padding: 0 40px 60px 150px;
+    display: none;
+}
+
+.font .info-text.register{
+    left: 0;
+    text-align: left;
+    padding: 0 150px 60px 40px;
+    /* display: none; */
+}
+
+.info-text h2{
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+
+.info-text p{
+    font-size: 16px;
+    color: #fff;
+}
+
+.font .bg-animate{
+    position: absolute;
+    top: -4px;
+    right: 0;
+    width: 850px;
+    height: 600px;
+    background: linear-gradient(45deg,#081b29, #F86F03);
+    border-bottom: 3px solid #F86F03;
+    /* transform: rotate(10deg) skewY(40deg); */
+    transform: rotate(0) skewY(0);
+    transform-origin: bottom  right;
+}
+
+.font .bg-animate2{
+    position: absolute;
+    top: 100%;
+    left: 250px;
+    width: 850px;
+    height: 700px;
+    background: #081b29;
+    border-top: 3px solid #F86F03;
+    transform: rotate(-11deg) skewY(-40deg);
+    transform-origin: bottom  left;
+}
+
+
+
+
