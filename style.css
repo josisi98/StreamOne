@@ -148,13 +148,18 @@ header{
         color: #fff;
     }
     .poster{
-        margin-top: 130px;
+        margin-top: 50px;
         margin-right: 150px;
+       
     }
-    .poster img{
-        height:320px;
+    .poster video{
+        height:500px;
         float: right;
         border-radius: 10px;
+    
+
+       
+      
     }
     .latest-movies{
         position: absolute;
@@ -178,6 +183,16 @@ header{
         justify-content: space-between;
         align-items: center;
     }
+    .latest-inside video{
+        height: 122px;
+        cursor: pointer;
+        padding: 4px;
+        transition: all 500ms ease-in-out;
+    }
+    .latest-inside video:hover{
+        transform: scale(1.2);
+    }
+    
     .latest-inside img{
         height: 122px;
         cursor: pointer;
@@ -421,6 +436,12 @@ header{
         font-weight: bolder;
         text-decoration: none;
     }
+
+    .str{
+        color: #EEEDED;
+        font-size: 35px;
+        
+    }
     .iollywood-movies{
         position: absolute;
         width:100%;
@@ -470,7 +491,7 @@ header{
      margin-left: 1220px;
     }
     .more4 a{
-        color:teal;
+        color:#F86F03;
         font-weight: bolder;
         text-decoration: none;
     }
@@ -525,7 +546,7 @@ header{
     }
     .more5 a{
     
-        color:teal;
+        color:#F86F03;
         font-weight: bolder;
         text-decoration: none;
     }
