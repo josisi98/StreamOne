@@ -33,14 +33,13 @@ header{
     
     }
     .logo img{
-        height: 7vh;
+        height: 8vh;
     }
     .logo h3{
         color: #F86F03;
-        font-size: 25px;
-        margin-top: -35px;
-    
-        margin-left: 50px;
+        font-size: 30px;
+        margin-top: -50px;
+        margin-left: 80px;
     }
     
     .nav ul{
@@ -106,7 +105,7 @@ header{
         line-height:2;
     }
     .inside-heropage h1{
-        font-size: 40px;
+        font-size: 60px;
     }
     .inside-heropage p{
         font-size: 17px;
@@ -249,7 +248,13 @@ header{
         font-size: 15px;
         font-weight:500;
         margin-top: 6px;
+        
        
+    }
+    .hollywood-inside h3:hover{
+        transition:.4s ease all ;
+        color: #fff;
+        
     }
     .hollywood-inside img{
        height: 250px;
@@ -271,16 +276,21 @@ header{
         font-weight: bolder;
     }
     .more1{
-    position: absolute;
-     margin-top: 860px;
-     margin-left: 1220px;
+        position: absolute;
+        margin-top: 860px;
+        margin-left: 1900px;
+        font-size: 20px;
     }
     .more1 a{
     
         color:#F86F03;
         font-weight: bolder;
         text-decoration: none;
-    
+    }
+
+    .more1 a:hover{
+        color: #fff;
+        cursor: pointer;
     }
     
     .tollywood-movies{
@@ -307,6 +317,11 @@ header{
         font-weight:500;
         margin-top: 6px;
        
+    }
+    .tollywood-inside h3:hover{
+        transition:.4s ease all ;
+        color: #fff;
+        
     }
     .tollywood-inside img{
        height: 250px;
@@ -352,7 +367,13 @@ header{
         font-size: 15px;
         font-weight:500;
         margin-top: 6px;
+        color:#F86F03;
        
+    }
+    .collywood-inside h3:hover{
+        transition:.4s ease all ;
+        color: #fff;
+        
     }
     .collywood-inside img{
        height: 250px;
@@ -376,12 +397,17 @@ header{
     .more3{
         position: absolute;
         margin-top: 1300px;
-        margin-left: 1220px;
+        margin-left: 1900px;
+        font-size: 20px;
     }
     .more3 a{
         color:#F86F03;
         font-weight: bolder;
         text-decoration: none;
+    }
+    .more3 a:hover{
+        color: #fff;
+        cursor: pointer;
     }
     .tollywood-movies{
         position: absolute;
@@ -406,6 +432,13 @@ header{
         font-size: 15px;
         font-weight:500;
         margin-top: 6px;
+        color:#F86F03;
+    }
+
+    .tollywood-inside h3:hover{
+        transition:.4s ease all ;
+        color: #fff;
+        
     }
     .tollywood-inside img{
        height: 250px;
@@ -428,19 +461,30 @@ header{
     }
     .more2{
         position: absolute;
-     margin-top: 1730px;
-     margin-left: 1220px;
+        margin-top: 1730px;
+        margin-left: 1900px;
+        font-size: 20px;
     }
     .more2 a{
-       color: #F86F03;
+        color: #F86F03;
         font-weight: bolder;
         text-decoration: none;
+    }
+
+    .more2 a:hover{
+        color: #fff;
+        cursor: pointer;
     }
 
     .str{
         color: #EEEDED;
         font-size: 35px;
         
+    }
+
+    .st{
+        color: #EEEDED;
+        font-size: 60px;
     }
     .iollywood-movies{
         position: absolute;
@@ -453,7 +497,7 @@ header{
     }
     .iollywood-movies h1{
         font-size: 20px;
-        color:rgb(18, 241, 241);
+        color:#F86F03;
     }
     .iollywood-container{
         margin-top: 30px;
@@ -465,6 +509,13 @@ header{
         font-size: 15px;
         font-weight:500;
         margin-top: 6px;
+        color:#F86F03;
+    }
+
+    .iollywood-inside h3:hover{
+        transition:.4s ease all ;
+        color: #fff;
+        
     }
     .iollywood-inside img{
        height: 250px;
@@ -487,13 +538,18 @@ header{
     }
     .more4{
         position: absolute;
-     margin-top: 2200px;
-     margin-left: 1220px;
+        margin-top: 2200px;
+        margin-left: 1900px;
+        font-size: 20px;
     }
     .more4 a{
         color:#F86F03;
         font-weight: bolder;
         text-decoration: none;
+    }
+    .more4 a:hover{
+        color: #fff;
+        cursor: pointer;
     }
     .sollywood-movies{
         position: absolute;
@@ -518,7 +574,13 @@ header{
         font-size: 15px;
         font-weight:500;
         margin-top: 6px;
+        color:#F86F03;
        
+    }
+
+    .sollywood-inside h3:hover{
+        transition:.4s ease all ;
+        color: #fff; 
     }
     .sollywood-inside img{
        height: 250px;
@@ -541,8 +603,9 @@ header{
     }
     .more5{
     position: absolute;
-     margin-top: 860px;
-     margin-left: 1220px;
+     margin-top: 2650px;
+     margin-left: 1900px;
+     font-size: 20px;
     }
     .more5 a{
     
@@ -550,13 +613,18 @@ header{
         font-weight: bolder;
         text-decoration: none;
     }
+
+    .more5 a:hover{
+        color: #fff;
+    }
+    
     .akira{
     
         position: absolute;
         height:100%;
         width: 100%;
         background: #081b29;
-        color: white;
+        color: #F86F03;
         margin-top: 3100px;
     }
     .yt-movies{
@@ -564,7 +632,7 @@ header{
         line-height: 1.9;
     }
     .yt-movies h1{
-        color:rgb(18, 241, 241);
+        color:#F86F03;
     }
     .yt-movies p{
         font-size: 25px;
